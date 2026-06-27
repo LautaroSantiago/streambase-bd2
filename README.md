@@ -31,7 +31,7 @@
    
  git clone [https://github.com/LautaroSantiago/streambase-bd2  
    
-  cd streambase-bd2  
+ cd streambase-bd2  
    
     
  **2. Crear entorno virtual e instalar dependencias**  
