@@ -26,7 +26,7 @@
 - MongoDB instalado y corriendo en localhost:27017  
 - pip  
  ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANElEQVR4nO3OQQmAUBBAwSfIj+HZmJvAlAaxgjcRZhLMNjNHdQUAwF/ce7Wq8+sJAACvrQctfwNKYUQ0YAAAAABJRU5ErkJggg==)  
- **🚀 Cómo ejecutarlo**  
+  🚀 **Cómo ejecutarlo**  
  **1. Clonar el repositorio**  
    
  git clone [https://github.com/LautaroSantiago/streambase-bd2  
