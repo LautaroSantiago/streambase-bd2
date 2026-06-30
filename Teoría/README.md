@@ -1,1 +1,1 @@
-Tería
+Teoría
