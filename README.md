@@ -11,6 +11,11 @@
 
 ---
 
+Presentacion: https://gamma.app/docs/BASE-DE-DATOS-STREAMING-DE-PELICULAS-6uusseg2zhpmj28?mode=doc
+
+---
+
+
 ## ❓ ¿Qué hace este programa?
 
 StreamBase es un MVP (Mínimo Producto Viable) que simula el backend de una plataforma de streaming tipo Netflix. Demuestra el modelado de datos en MongoDB usando decisiones fundamentadas de **embedding** y **referencing**, y ejecuta tres **Aggregation Pipelines** reales sobre la base de datos.
