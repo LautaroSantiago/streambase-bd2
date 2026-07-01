@@ -18,9 +18,9 @@ const peliculas = [
 ];
 
 
-/* ==========================================================================
+/* 
    1. MÉTODOS DE ARRAYS (Transformación de resultados de consultas)
-   ========================================================================== */
+*/
 
 // .map() -> Extrae o transforma propiedades a un nuevo array
 const titulos = peliculas.map(p => p.titulo); // ["Inception", "Interstellar"]
@@ -37,9 +37,9 @@ const todosLosGeneros = peliculas.flatMap(p => p.generos);
 // Resultado: ["Ciencia Ficción", "Acción", "Ciencia Ficción", "Drama"]
 
 
-/* ==========================================================================
+/* 
    2. DESESTRUCTURACIÓN Y SPREAD OPERATOR (Aplicados a documentos MongoDB)
-   ========================================================================== */
+*/
 
 const docMongo = { _id: "12345", titulo: "Inception", director: "Nolan", __v: 0 };
 
@@ -52,9 +52,9 @@ const nuevosCampos = { rating: 4.8, duracion: 148 };
 const documentoActualizado = { ...docMongo, ...nuevosCampos, editadoEn: new Date() };
 
 
-/* ==========================================================================
+/* 
    3. MANEJO DE ASYNC/AWAIT Y ERRORES (Try/Catch en operaciones asíncronas)
-   ========================================================================== */
+ */
 
 async function obtenerDataPelicula(id) {
   try {
@@ -74,9 +74,9 @@ async function obtenerDataPelicula(id) {
 }
 
 
-/* ==========================================================================
+/* 
    4. CONSULTAS PARALELAS EFICIENTES (Promise.all)
-   ========================================================================== */
+*/
 
 async function getDashboardData() {
   try {
@@ -95,9 +95,9 @@ async function getDashboardData() {
 }
 
 
-/* ==========================================================================
+/* 
    5. MÓDULOS NATIVOS DE NODE.JS RELEVANTES (fs, path)
-   ========================================================================== */
+*/
 
 // Manipulación segura de rutas de archivos (Garantiza compatibilidad Windows/Linux)
 const rutaLog = path.join(process.cwd(), "logs", "db-error.log");
@@ -109,9 +109,9 @@ async function registrarError(error) {
 }
 
 
-/* ==========================================================================
+/* 
    6. GUÍA DE REFERENCIA: MÉTODOS DEL DRIVER OFICIAL DE MONGODB
-   ========================================================================== */
+*/
 
 /**
  * findOne(query)
